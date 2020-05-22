@@ -1,0 +1,36 @@
+{
+  "name": "ZCDemoTools",
+  "version": "0.1.0",
+  "summary": "ZCDemoTools.",
+  "description": "ZCDemoTools",
+  "homepage": "https://github.com/zhangchione/ZCDemoTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangchione": "zhangchi06@kuaishou.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangchione/ZCDemoTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "ZCDemoTools/Base/**/*.{h,m}",
+      "resource_bundles": {
+        "ZCDemoTools": [
+          "ZCDemoTools/Base/*.xcassets"
+        ]
+      }
+    }
+  ]
+}

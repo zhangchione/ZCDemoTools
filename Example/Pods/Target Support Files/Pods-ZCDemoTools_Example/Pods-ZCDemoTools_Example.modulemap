@@ -1,0 +1,6 @@
+framework module Pods_ZCDemoTools_Example {
+  umbrella header "Pods-ZCDemoTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
